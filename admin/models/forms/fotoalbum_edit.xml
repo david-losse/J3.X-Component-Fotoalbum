@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <fieldset>
+        <field name="foto_id" type="hidden"/>
+
+        <field name="foto_filename" type="file"
+               label="COM_FOTOALBUM_FIELD_FILENAME_LABEL"
+               description="COM_FOTOALBUM_FIELD_FILENAME_DESC"
+               size="100" class="inputbox" default=""/>
+		<field name="foto_description" type="textarea"
+               label="COM_FOTOALBUM_FIELD_FOTODESC_LABEL"
+               description="COM_FOTOALBUM_FIELD_FOTODESC_DESC"
+               size="100" rows="5" class="text_area" default=""/>
+		<field name="foto_uploaddate" type="text"
+               label="COM_FOTOALBUM_FIELD_FOTOUPLOADDATE_LABEL"
+               description="COM_FOTOALBUM_FIELD_FOTOUPLOADDATE_DESC"
+               size="100" class="inputbox" default=""/>
+		<field name="foto_uploader" type="text"
+               label="COM_FOTOALBUM_FIELD_FOTOUPLOADER_LABEL"
+               description="COM_FOTOALBUM_FIELD_FOTOUPLOADER_DESC"
+               size="100" class="inputbox" default=""/>	
+    </fieldset>
+</form>

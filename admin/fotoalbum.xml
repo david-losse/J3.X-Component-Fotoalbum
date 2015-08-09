@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5" method="upgrade">
+  <name>com_fotoalbum</name>
+  <description>com_fotoalbum_description</description>
+  <creationDate>09.06.2015</creationDate>
+  <author>David Losse</author>
+  <authorEmail>kontakt@losse-david.de</authorEmail>
+  <authorUrl>http://www.losse-david.de</authorUrl>
+  <version>0.2015.717</version>
+  
+  <install>
+    <sql>
+      <file driver="mysql" charset="utf8">sql/install.sql</file>
+    </sql>
+  </install>
+  
+  <files folder="site">
+    <folder>models</folder>
+    <folder>views</folder>
+    <filename>controller.php</filename>
+    <filename>fotoalbum.php</filename>
+  </files>
+  
+  <languages>
+    <language tag="de-DE">language/de-DE/de-DE.com_barrieremelder.ini</language>
+  </languages>
+  
+  <administration>
+    <menu img="class:component">fotoalbum</menu>
+	<files folder="admin">
+      <folder>models</folder>
+      <folder>tables</folder>
+      <folder>views</folder>
+      <folder>sql</folder>
+      <filename>fotoalbum.php</filename>
+      <filename>controller.php</filename>
+    </files>
+	
+    <languages>
+      <language tag="de-DE">language/de-DE/de-DE.com_barrieremelder.ini</language>
+    </languages>
+  
+  </administration>
+</extension>
+    
+    
+    
+    
+    
+    
+ 
+    
+ 
+    
+	
+	
+ 
+    <administration>
+        <menu>COM_BARRIEREMELDER</menu>
+ 
+        
+		
+		
+		
+    </administration>
+ 
+</extension>
